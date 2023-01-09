@@ -1,0 +1,7 @@
+services:
+    prodigiouspython:
+        ports: 
+          - 8888:8888
+        volumes: 
+          - ./:/home/pythonist/prodigiouspython
+        image: "naveen8/prodigiouspython:latest"
